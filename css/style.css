@@ -1,14 +1,25 @@
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     margin: 20px auto;
-    background-color: pink;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+}
+.container2{
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .nav-li{
@@ -21,10 +32,10 @@
 
 .logo img{
     height: 100px;
-    background-color: aqua;
 }
 .big-chris{
-    width: 100%;
+    max-width: 100%;
+    width: 90%;
 }
 .small-chris{
     max-width: 100%;
@@ -35,9 +46,4 @@
 .load-more{
     display: flex;
     justify-content: center;
-}
-
-.flex{
-    display: flex;
-    flex-wrap: wrap;
 }
