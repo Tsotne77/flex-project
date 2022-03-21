@@ -9,13 +9,56 @@
     <title>sport.ge</title>
 </head>
 <body>
-    <div>
+    <header class="flex">
+        <!-- გავაკეთეთ კონტეინერი რომლის მაქს სიგანე არი 1200px, %-ად იკავებს 90%
+        გავუწერე რო იყოს ფლექსი, და მის ყველა შვილზე მოქმედებს უკვე ფლექსი
+        ჩავსვი სურათი ცალკე დივში რო justify-content-ით გამეწია -->
+        <div class="container">
+            <div>
+                <a href="#" class="logo">
+                    <img src="https://cdn.nba.com/logos/nba/nba-logoman-75-word_white.svg" alt="search">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="nav-li" href="#">Home</a>
+                        <a class="nav-li" href="#">news</a>
+                        <a class="nav-li" href="">contact</a>
+                        <a class="nav-li" href="#">other</a>
+                        <img class="search-logo" src="images/search.png" alt="search">
+                    </li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
 
+    <section>
+        <div class="container flex">
+             <img class="big-chris" src="images/header-chris.jpg" alt="chris">
+        </div>
+        <div class="load-more">
+            <span>load more</span>
+        </div>
 
+        <div class="container">
+            <div>
+                <img class="small-chris" src="images/defence.jpg" alt="cross">
+                <p class="small-chris">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, placeat!</p>
+            </div>
+            <div>
+                <img class="small-chris" src="images/defence.jpg" alt="defence">
+                <p class="small-chris">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dignissimos?</p>
+            </div>
+            <div>
+                <img class="small-chris" src="images/defence.jpg" alt="shoot">
+                <p class="small-chris">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, rerum!</p>
+            </div>
+        </div>
+    </section>
+    
 
-    </div>
-
-    <form action="#">
+    <p class="flex"></p>
+    <!-- <form action="#">
         <div>
             <label for="name">სახელი</label>
                 <input type="text" placeholder="სახელი" id="name" required>
@@ -27,6 +70,6 @@
         <div>
             <button>გაგზავნა</button>
         </div>
-    </form>
+    </form> -->
 </body>
 </html>

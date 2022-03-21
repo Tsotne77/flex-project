@@ -1,0 +1,43 @@
+
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: pink;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-li{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.search-logo{
+    height: 40px;
+}
+
+.logo img{
+    height: 100px;
+    background-color: aqua;
+}
+.big-chris{
+    width: 100%;
+}
+.small-chris{
+    max-width: 100%;
+    width: 90%;
+    margin: 5px 10px;
+}
+
+.load-more{
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
